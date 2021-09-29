@@ -3,17 +3,21 @@
 With this small curiculum I help my friends take their first steps into the world of computer programming.
 
 ### Concepts covered:
-1. Hello World
-2. Variables
+0. Hello World
+1. Variables
     1. Primitiv Data Types
     2. Lists
     3. Dictionaries
-3. Math and Modulo
-4. Conditions
-5. Loops
+2. Math and Modulo
+3. Conditions
+4. Loops
     1. For
     2. While
-6. Functions
+5. Functions
+6. Clean Code
+    1. Best practices
+    2. Closure
+    3. File Structure and Imports
 
 ### Mini Projects:
 1. Build a calculator
