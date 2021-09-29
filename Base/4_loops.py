@@ -19,7 +19,7 @@ amount = 10
 for i in range(amount):
     x += i
 
-print(x)
+# print(x)
 
 # To infinity and beyond
 
@@ -34,18 +34,11 @@ while counter < 10:
     counter += 1
 
 ### Build a counter
+# Get user Input:
 
 counter = 1
 result = 0
 
 
-print("This App lets you add as many numbers as you like.")
-print("Input 0 to calculate the result.")
-
-userInput = None
-
-while userInput != 0:
-    userInput = int(input(str(counter) + ". Number: "))
-    result += userInput
-
-print(result)
+# print("This App lets you add as many numbers as you like.")
+# print("Input 0 to calculate the result.")

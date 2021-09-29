@@ -43,30 +43,3 @@ else:
 
 number = random.randint(1, 100)
 print('Number:', number)
-# Write your code here
-
-if number % 2 == 0:
-    print('gerade')
-else:
-    print('ungerade')
-
-
-
-
-"""
-
-### Building a calculator (extra: check input operation)
-
-firstInput = input("First Number: ")  # Returns a valid Integer
-secondInput = input("Second Number: ")  # Returns a valid Integer
-operandInput = input("Operation: ")  # Returns a String
-
-try:
-    first = int(firstInput)
-    second = int(secondInput)
-except (ValueError, AttributeError):
-    print("Not a valid Number.")
-else:
-     # Write your code here
-     pass
-"""

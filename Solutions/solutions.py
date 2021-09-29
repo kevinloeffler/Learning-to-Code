@@ -1,38 +1,16 @@
-### 2. Numbers:
-result = 9.0 # (Float)
+# Numbers:
+result = 9.0  # (Float)
 
-### 3. Conditions
 
-# 3.1 Even or Odd?
+# Even or Odd?
 if number % 2 == 0:
     print("Even")
 else:
     print("Odd")
 
-# 3.2 Calculator
 
-firstInput = input("First Number: ")  # Returns a valid Integer
-operandInput = input("Operation: ")  # Returns a String
-secondInput = input("Second Number: ")  # Returns a valid Integer
-
-try:
-    first = int(firstInput)
-    second = int(secondInput)
-except (ValueError, AttributeError):
-    print("Not a valid Number.")
-else:
-    if operandInput == '+':
-         print(first + second)
-    elif operandInput == '-':
-         print(first - second)
-    elif operandInput == '/':
-         print(first / second)
-    elif operandInput == '*':
-         print(first * second)
-    else:
-         print("Not a valid operation, choose + | - | * | /")
-
-
+# Counter 1
+counter = 1
 
 while True:
     number = int(input(str(counter) + ". Number: "))
@@ -40,19 +18,28 @@ while True:
         break
     else:
         result += number
+        counter += 1
 
-print(result)
+print("Your result is:", result)
 
 
-    return num1 * num2
+# Counter 2
+userInput = None
+counter = 1
 
-def divide(num1, num2):
-    return num1 / num2
+while userInput != 0:
+    userInput = int(input(str(counter) + ". Number: "))
+    result += userInput
+    counter += 1
 
+print("Your result is:", result)
+
+
+# Calculator
 def power(num1, num2):
     result = 1
     for i in range(num2):
-        result = multiply(result, num1)
+        result = result * num1
     return result
 
 def root(num1, num2):
