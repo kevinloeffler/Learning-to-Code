@@ -1,0 +1,39 @@
+-> Code Fokussiert, mehr Theory auch möglich :D
+
+Chapter 1 – INTRO
+
+1.0: Hello World
+- Print Statement
+- Comments
+- Compiling
+
+1.1: Variables
+- Variables
+- Dynamically Typed
+- Overwriting Variables
+- Data
+- Lists
+- 0 Indexing
+- How Programmers learn
+- Dictionaries https://en.wikibooks.org/wiki/A-level_Computing/AQA/Paper_1/Fundamentals_of_data_structures/Dictionaries
+
+1.2: Numbers
+- Operations
+- Brackets
+- Modulo
+- Math with Variables
+
+1.3: Conditions
+- If
+- Else
+- Elif
+
+1.4: Loops
+- repetition lead to a lot of code
+
+1.5: Functions
+- built in functions (print, input, append, pop)
+- repeating patterns with loops
+- functions
+
+1.6: FizzBuzz
