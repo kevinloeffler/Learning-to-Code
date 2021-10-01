@@ -34,11 +34,5 @@ while counter < 10:
     counter += 1
 
 ### Build a counter
-# Get user Input:
-
-counter = 1
-result = 0
-
-
 # print("This App lets you add as many numbers as you like.")
 # print("Input 0 to calculate the result.")
