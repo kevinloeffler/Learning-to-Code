@@ -1,8 +1,8 @@
 # Can you repeat that for me?
 
-for i in range(10):
+for i in range(1, 11):
     pass
-    # print(i)
+    #print(i)
 
 
 list = [1, 2, 3, 4, 5]
@@ -11,7 +11,6 @@ score = 0
 for element in list:
     score += element
     # print(element)
-
 
 x = 0
 amount = 10
@@ -27,7 +26,7 @@ while False:
     print("Hello")
 
 
-counter = 11
+counter = 0
 
 while counter < 10:
     print("Still below 10")

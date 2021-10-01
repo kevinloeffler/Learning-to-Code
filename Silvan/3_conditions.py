@@ -6,7 +6,8 @@ yes = True
 no = False
 
 if yes:
-    print("Yay")
+    pass
+    #print("Yay")
 
 if no:
     print("Nope")
@@ -14,11 +15,12 @@ if no:
 
 # Comparisons: > < ==
 
-a = 5
+a = 3
 b = 3
 
 if a > b:
-    print("Bigger")
+    pass
+    #print("Bigger")
 
 
 # Nespresso, what else
@@ -35,7 +37,8 @@ else:
 if a < b:
     print("Smaller")
 elif a > b:
-    print("Bigger")
+    #print("Bigger")
+    pass
 else:
     print("Equal")
 
@@ -43,3 +46,8 @@ else:
 
 number = random.randint(1, 100)
 print('Number:', number)
+
+if number % 2 == 0:
+    print ("even")
+else:
+    print ("odd")

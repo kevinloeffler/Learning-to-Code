@@ -5,6 +5,12 @@ def showUsedBattery():
     currentBattery = 60
     usedBattery = capacity - currentBattery
     print("You have used " + str(usedBattery) + "% Battery.")
+    return usedBattery
+
+
+def greeting(name):
+    print("Hello " + name)
+
 
 
 # Parametric functions
@@ -27,13 +33,16 @@ newWord = remove(word)
 # 1 Advanced operations: n-power
 # Calculations should be functions
 
-def add():
+def add(ei, zwei):
     # Write code here
-    pass
+    dre = ei + zwei
+    return dre
 
-def sub():
+
+def sub(ei, zwei):
     # Write code here
-    pass
+    dre = ei - zwei
+    return dre
 
 def pow():
     # Write code here
@@ -44,6 +53,7 @@ def pow():
 firstInput = input("First Number: ")  # Returns a valid Integer
 operandInput = input("Operation: ")  # Returns a String
 secondInput = input("Second Number: ")  # Returns a valid Integer
+
 
 try:
     first = int(firstInput)

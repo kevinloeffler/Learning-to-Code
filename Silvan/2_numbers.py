@@ -13,13 +13,12 @@ k = k + 1
 k += 1
 # print('k: ' + str(k))
 
-
 # Variables work too
 
 p = 3
 q = 5
 w = p * q
-# print("w: " + str(w))
+print("w: " + str(w))
 
 # Modulo
 
@@ -35,3 +34,4 @@ varA = varC * 2
 varB += 4
 varD = 10
 result = varA + (0.5 * varD)
+print(result)

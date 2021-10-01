@@ -7,7 +7,7 @@ z = 'x'
 
 # Primitiv Data
 
-string = 'Hello'
+string = 'liu'
 integer = 42
 float = 2.71
 boolean = True
@@ -18,12 +18,14 @@ none = None
 type(x)
 
 ### Save your age in a variable and print it
+age = 23
+# print (age)
 
 
 # List / Array
 
 list = [1, 2, 3, 5]
-# print(list)
+print(list)
 
 first = list[1]
 last = list[-1]
